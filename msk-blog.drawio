@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-05T14:12:42.838Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="jv1DG9aWOxh77nec74ji" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-05T14:20:15.577Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="86PG8HJD_4DOYgGCDJSb" version="21.6.8" type="github">
   <diagram name="페이지-1" id="dHtTjX74jyADIkVAMheB">
-    <mxGraphModel dx="2081" dy="956" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1841" dy="956" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,6 +34,15 @@
         <mxCell id="yJP6CHm6dHVeqmvsgXed-20" value="Confluent Connector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yJP6CHm6dHVeqmvsgXed-1">
           <mxGeometry x="451" y="122" width="154" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="yJP6CHm6dHVeqmvsgXed-21" value="&lt;font color=&quot;#ff0000&quot;&gt;Capture&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=0;" vertex="1" parent="yJP6CHm6dHVeqmvsgXed-1">
+          <mxGeometry x="99" y="52" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yJP6CHm6dHVeqmvsgXed-22" value="&lt;font color=&quot;#ff0000&quot;&gt;Producer&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=0;" vertex="1" parent="yJP6CHm6dHVeqmvsgXed-1">
+          <mxGeometry x="238" y="52" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yJP6CHm6dHVeqmvsgXed-23" value="&lt;font color=&quot;#ff0000&quot;&gt;Consumer&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=0;" vertex="1" parent="yJP6CHm6dHVeqmvsgXed-1">
+          <mxGeometry x="401" y="52" width="115" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="yJP6CHm6dHVeqmvsgXed-2" value="On-Premise" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_on_premise;strokeColor=#858B94;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#858B94;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="770" y="120" width="160" height="170" as="geometry" />
         </mxCell>
@@ -42,6 +51,9 @@
         </mxCell>
         <mxCell id="yJP6CHm6dHVeqmvsgXed-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yJP6CHm6dHVeqmvsgXed-10" target="yJP6CHm6dHVeqmvsgXed-11">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yJP6CHm6dHVeqmvsgXed-24" value="&lt;font color=&quot;#ff0000&quot;&gt;Sink&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=0;" vertex="1" parent="1">
+          <mxGeometry x="668" y="172" width="115" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
