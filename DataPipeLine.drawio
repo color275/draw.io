@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T05:56:14.105Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="DRmQmySmypSqHBexqG3w" version="22.1.12" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-27T05:57:10.593Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="msRjOqpOOQgZICh2Q2_i" version="22.1.12" type="github">
   <diagram name="페이지-1" id="ekymxuNGtFeP-5mvZlKB">
     <mxGraphModel dx="1434" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -81,6 +81,9 @@
         </mxCell>
         <mxCell id="p0i0s2u1HUY711bE-bfg-14" value="EKS → FluentBit → KDF → S3" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingTop=0;verticalAlign=middle;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="80" y="440" width="1080" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p0i0s2u1HUY711bE-bfg-15" value="Bucket&lt;br&gt;- chiholee-datalake01&lt;br&gt;Key&lt;br&gt;- accesslog/ecommerce-accesslog-fluentbit-to-s3-parquet/" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="920" y="640" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
