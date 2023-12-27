@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T04:24:30.004Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.12" etag="IAfqpW_gu0aI1c-003m2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-27T05:40:14.430Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="n__co0QKSUpMjTQM81w1" version="22.1.12" type="github">
   <diagram name="페이지-1" id="ekymxuNGtFeP-5mvZlKB">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DlW72n1KOJQ0S0RbXo5U-1" value="RDS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="DlW72n1KOJQ0S0RbXo5U-3" value="MSK" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" vertex="1" parent="1">
+          <mxGeometry x="521" y="120" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="DlW72n1KOJQ0S0RbXo5U-5" value="Connect (EC2)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="327.1" y="119" width="65.81" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DlW72n1KOJQ0S0RbXo5U-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DlW72n1KOJQ0S0RbXo5U-1" target="DlW72n1KOJQ0S0RbXo5U-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DlW72n1KOJQ0S0RbXo5U-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DlW72n1KOJQ0S0RbXo5U-5" target="DlW72n1KOJQ0S0RbXo5U-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DlW72n1KOJQ0S0RbXo5U-11" value="Table&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- orders&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DlW72n1KOJQ0S0RbXo5U-13" value="Connect&lt;br&gt;-&amp;nbsp;rds-ecommerce-op-source" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DlW72n1KOJQ0S0RbXo5U-14" value="Topic&lt;br&gt;-&amp;nbsp;rdb_op.ecommerce.orders" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="500" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DlW72n1KOJQ0S0RbXo5U-15" value="S3" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="960" y="120" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="DlW72n1KOJQ0S0RbXo5U-17" value="Bucket&lt;br&gt;- chiholee-datalake01&lt;br&gt;Key&lt;br&gt;- Topic/rdb_op.ecommerce.orders/" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="960" y="240" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DlW72n1KOJQ0S0RbXo5U-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DlW72n1KOJQ0S0RbXo5U-18" target="DlW72n1KOJQ0S0RbXo5U-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DlW72n1KOJQ0S0RbXo5U-18" value="Connect (EC2)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="119" width="65.81" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DlW72n1KOJQ0S0RbXo5U-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DlW72n1KOJQ0S0RbXo5U-3" target="DlW72n1KOJQ0S0RbXo5U-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DlW72n1KOJQ0S0RbXo5U-21" value="Connect&lt;br&gt;-&amp;nbsp;orders-s3-op-target" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="730" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DlW72n1KOJQ0S0RbXo5U-22" value="RDS → MSK → S3 (OP코드 포함)" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingTop=0;verticalAlign=middle;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="1080" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
