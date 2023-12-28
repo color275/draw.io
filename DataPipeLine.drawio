@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-28T00:31:34.052Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="4glnzkArbcu7TmXehZHF" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-28T00:32:49.463Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="PtXGjetJHXU4EFHQZ9Wk" version="22.1.15" type="github">
   <diagram name="페이지-1" id="ekymxuNGtFeP-5mvZlKB">
-    <mxGraphModel dx="1434" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1886" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -106,7 +106,7 @@
         <mxCell id="BOCaLSCPw9A0fs1Xt0Mh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BOCaLSCPw9A0fs1Xt0Mh-7" target="BOCaLSCPw9A0fs1Xt0Mh-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BOCaLSCPw9A0fs1Xt0Mh-12" value="Glue ETL :&amp;nbsp;rdb_op.ecommerce.orders.iceberg" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="BOCaLSCPw9A0fs1Xt0Mh-12" value="Glue ETL&lt;br&gt;- Nmae : rdb_op.ecommerce.orders.iceberg&lt;br&gt;- Interval : every 5 minute" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1360" y="240" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BOCaLSCPw9A0fs1Xt0Mh-13" value="Bucket&lt;br&gt;- chiholee-datalake01&lt;br&gt;Key&lt;br&gt;- processing/rdb_op.ecommerce.orders.iceberg/" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
@@ -116,7 +116,7 @@
           <mxGeometry x="2000" y="240" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BOCaLSCPw9A0fs1Xt0Mh-15" value="Transaction(CRUD) 처리" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingTop=0;verticalAlign=middle;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="40" width="1080" height="40" as="geometry" />
+          <mxGeometry x="1360" y="40" width="920" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
