@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-31T01:09:19.034Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="IaEzjykWUM48wPqR4x6G" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-31T01:09:50.937Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="wFFHbXwaSz5HronDNbka" version="22.1.16" type="github">
   <diagram name="페이지-1" id="ekymxuNGtFeP-5mvZlKB">
     <mxGraphModel dx="1674" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
           <mxGeometry x="532" y="950" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p0i0s2u1HUY711bE-bfg-14" value="EKS → FluentBit → KDF → S3" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingTop=0;verticalAlign=middle;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="80" y="820" width="1080" height="40" as="geometry" />
+          <mxGeometry x="80" y="820" width="1160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p0i0s2u1HUY711bE-bfg-15" value="Bucket&lt;br&gt;- chiholee-datalake01&lt;br&gt;Key&lt;br&gt;- accesslog/ecommerce-accesslog-fluentbit-to-s3-parquet/" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="842" y="1020" width="200" height="80" as="geometry" />
