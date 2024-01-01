@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T01:25:28.967Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="0k73WfgK19NucEnPozQ2" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T01:28:00.845Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="RBvJ6rqnPezMo1ESYO2e" version="22.1.16" type="github">
   <diagram name="페이지-1" id="ekymxuNGtFeP-5mvZlKB">
     <mxGraphModel dx="1674" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -136,7 +136,7 @@
           <mxGeometry x="1510" y="1100" width="390" height="120" as="geometry" />
         </mxCell>
         <mxCell id="idrEVtqPkT4oE3fFBeDB-1" value="MSK → EMR ( 실시간 주문금액, 주문량 집계 )" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingTop=0;verticalAlign=middle;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="80" y="400" width="1160" height="40" as="geometry" />
+          <mxGeometry x="80" y="400" width="1360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="idrEVtqPkT4oE3fFBeDB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="idrEVtqPkT4oE3fFBeDB-3" target="idrEVtqPkT4oE3fFBeDB-5">
           <mxGeometry relative="1" as="geometry" />
