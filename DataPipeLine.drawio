@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T11:45:15.949Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="4LPv_0Gy6UN22SMLrd9w" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T11:45:58.453Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Fxhs0jjrskPv50LsZxSr" version="22.1.16" type="github">
   <diagram name="페이지-1" id="ekymxuNGtFeP-5mvZlKB">
     <mxGraphModel dx="1674" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -122,18 +122,18 @@
           <mxGeometry x="1360" y="40" width="920" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BOCaLSCPw9A0fs1Xt0Mh-16" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.athena;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="1011" width="78" height="78" as="geometry" />
+          <mxGeometry x="1630" y="1011" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="BOCaLSCPw9A0fs1Xt0Mh-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="p0i0s2u1HUY711bE-bfg-4" target="BOCaLSCPw9A0fs1Xt0Mh-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1410" y="939" />
-              <mxPoint x="1410" y="1050" />
+              <mxPoint x="1530" y="939" />
+              <mxPoint x="1530" y="1050" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BOCaLSCPw9A0fs1Xt0Mh-18" value="Table&lt;br&gt;&lt;br&gt;1st&lt;br&gt;- datalake01.ecommerce_accesslog_fluentbit_to_s3_parquet&lt;br&gt;&lt;br&gt;2st&lt;br&gt;-&amp;nbsp;datalake01.ecommerce_accesslog_fluentbit_to_s3_2st_parquet" style="rounded=0;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="1100" width="390" height="120" as="geometry" />
+          <mxGeometry x="1630" y="1100" width="390" height="120" as="geometry" />
         </mxCell>
         <mxCell id="idrEVtqPkT4oE3fFBeDB-1" value="MSK → EMR ( 실시간 주문금액, 주문량 집계 )" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingTop=0;verticalAlign=middle;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="80" y="400" width="1360" height="40" as="geometry" />
@@ -200,30 +200,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="idrEVtqPkT4oE3fFBeDB-22" value="S3" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="1200" width="78" height="78" as="geometry" />
+          <mxGeometry x="1190" y="1200" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="idrEVtqPkT4oE3fFBeDB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="idrEVtqPkT4oE3fFBeDB-20" target="idrEVtqPkT4oE3fFBeDB-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="idrEVtqPkT4oE3fFBeDB-24" value="Glue Crawler" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.glue;" vertex="1" parent="1">
-          <mxGeometry x="1282" y="1200" width="78" height="78" as="geometry" />
+          <mxGeometry x="1402" y="1200" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="idrEVtqPkT4oE3fFBeDB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="idrEVtqPkT4oE3fFBeDB-24" target="BOCaLSCPw9A0fs1Xt0Mh-16">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1410" y="1239" />
-              <mxPoint x="1410" y="1050" />
+              <mxPoint x="1530" y="1239" />
+              <mxPoint x="1530" y="1050" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="idrEVtqPkT4oE3fFBeDB-28" value="2st 가공&lt;br&gt;&lt;br&gt;Name&lt;br&gt;- ecommerce-accesslog-fluentbit-to-s3-2st-parquet&lt;br&gt;&lt;br&gt;Http_path Parsing&lt;br&gt;-&amp;nbsp;/order/update?order_id=764&amp;amp;order_cnt=1&amp;amp;order_price=39113&lt;br&gt;-&amp;gt; update, order_id, order_dnt, order_price" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1320" width="355.75" height="140" as="geometry" />
+          <mxGeometry x="730" y="1320" width="355.75" height="140" as="geometry" />
         </mxCell>
         <mxCell id="idrEVtqPkT4oE3fFBeDB-29" value="Bucket&lt;br&gt;- chiholee-datalake01&lt;br&gt;Key&lt;br&gt;- processing/ecommerce-accesslog-fluentbit-to-s3-2st-parquet/" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="1320" width="200" height="100" as="geometry" />
+          <mxGeometry x="1130" y="1320" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="idrEVtqPkT4oE3fFBeDB-30" value="Name :&amp;nbsp;ecommerce-accesslog-fluentbit-to-s3-2st-parquet&lt;br&gt;&lt;br&gt;Http_path 에 다양한 키가 생성될 수 있으므로 다이나믹하게 파싱할 수 있는 Glue Crawler 사용" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="1320" width="200" height="100" as="geometry" />
+          <mxGeometry x="1390" y="1320" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
