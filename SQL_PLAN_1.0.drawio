@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-12T14:33:41.405Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="HMdKcOZzh7XKekyZwnTI" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-12T14:40:33.613Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="PDH9Gsik0quqVaW0rHza" version="23.1.1" type="github">
   <diagram name="페이지-1" id="OBI8d3PR-0S073GIq8ck">
     <mxGraphModel dx="1434" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -40,8 +40,8 @@
         <mxCell id="LiZUIExjUCHZ1DTq16x--12" value="EXPLAIN" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LiZUIExjUCHZ1DTq16x--14" target="LiZUIExjUCHZ1DTq16x--20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LiZUIExjUCHZ1DTq16x--23" value="ASIS와 TOBE&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;PLAN 저장" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LiZUIExjUCHZ1DTq16x--14" target="LiZUIExjUCHZ1DTq16x--16">
-          <mxGeometry x="0.2978" relative="1" as="geometry">
+        <mxCell id="LiZUIExjUCHZ1DTq16x--23" value="v5.7 과 v8.0&lt;br&gt;Plan 저장" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LiZUIExjUCHZ1DTq16x--14" target="LiZUIExjUCHZ1DTq16x--16">
+          <mxGeometry x="0.3009" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
