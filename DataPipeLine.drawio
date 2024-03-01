@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T04:01:01.741Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="rLne0hPg0kDuXbZUualF" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-01T05:19:21.961Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ju6XtsGaudHsrZSdE4TY" version="23.1.6" type="github">
   <diagram name="페이지-1" id="ekymxuNGtFeP-5mvZlKB">
     <mxGraphModel dx="1434" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -225,20 +225,41 @@
         <mxCell id="idrEVtqPkT4oE3fFBeDB-30" value="Name :&amp;nbsp;ecommerce-accesslog-fluentbit-to-s3-2st-parquet&lt;br&gt;&lt;br&gt;Http_path 에 다양한 키가 생성될 수 있으므로 다이나믹하게 파싱할 수 있는 Glue Crawler 사용" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1390" y="1320" width="200" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="dPN8lRMRx8_ww9Qdz4xc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dPN8lRMRx8_ww9Qdz4xc-1" target="dPN8lRMRx8_ww9Qdz4xc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dPN8lRMRx8_ww9Qdz4xc-1" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_oracle_instance_alt;" vertex="1" parent="1">
-          <mxGeometry x="81" y="1690" width="78" height="78" as="geometry" />
+          <mxGeometry x="81" y="1681" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="dPN8lRMRx8_ww9Qdz4xc-2" value="MSK(A)" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1680" width="81.9" height="81.9" as="geometry" />
+          <mxGeometry x="520" y="1679" width="81.9" height="81.9" as="geometry" />
+        </mxCell>
+        <mxCell id="dPN8lRMRx8_ww9Qdz4xc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dPN8lRMRx8_ww9Qdz4xc-3" target="dPN8lRMRx8_ww9Qdz4xc-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dPN8lRMRx8_ww9Qdz4xc-3" value="Connect (EC2)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="320" y="1680" width="65.81" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dPN8lRMRx8_ww9Qdz4xc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dPN8lRMRx8_ww9Qdz4xc-4" target="dPN8lRMRx8_ww9Qdz4xc-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dPN8lRMRx8_ww9Qdz4xc-4" value="Connect (EC2)" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="752.9" y="1680" width="65.81" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dPN8lRMRx8_ww9Qdz4xc-5" value="RDS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" vertex="1" parent="1">
-          <mxGeometry x="961" y="1680" width="78" height="78" as="geometry" />
+          <mxGeometry x="961" y="1681" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="dPN8lRMRx8_ww9Qdz4xc-6" value="Connect&lt;br&gt;- oracle-to-mysql-source" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="253.75" y="1800" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPN8lRMRx8_ww9Qdz4xc-7" value="Connect&lt;br&gt;- oracle-to-mysql-target" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="685.81" y="1800" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPN8lRMRx8_ww9Qdz4xc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dPN8lRMRx8_ww9Qdz4xc-2" target="dPN8lRMRx8_ww9Qdz4xc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPN8lRMRx8_ww9Qdz4xc-12" value="Topic&lt;br&gt;-&amp;nbsp;ora.ADMIN.PRODUCT" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="480.95" y="1800" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
