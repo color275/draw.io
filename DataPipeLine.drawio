@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T05:21:29.487Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="UWeo5DxEFumWi6tTrNtN" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-01T06:12:10.887Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="3UwS_iKMz_kQnznmPlKG" version="23.1.6" type="github">
   <diagram name="페이지-1" id="ekymxuNGtFeP-5mvZlKB">
-    <mxGraphModel dx="1434" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,11 +264,11 @@
         <mxCell id="dPN8lRMRx8_ww9Qdz4xc-13" value="Table&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- orders&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- product&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- customer&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="80" y="1800" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dPN8lRMRx8_ww9Qdz4xc-14" value="Table&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- orders&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- product&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- customer&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="960" y="1800" width="120" height="80" as="geometry" />
+        <mxCell id="dPN8lRMRx8_ww9Qdz4xc-14" value="Table&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- orders&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- product ( column rename : name -&amp;gt; name_rename)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- customer&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;spacingTop=0;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1800" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dPN8lRMRx8_ww9Qdz4xc-15" value="MySQL to Oracle CDC" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;spacingLeft=6;spacingTop=0;verticalAlign=middle;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="81" y="1600" width="999" height="40" as="geometry" />
+          <mxGeometry x="81" y="1600" width="1199" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
