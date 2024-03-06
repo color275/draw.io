@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T14:57:40.501Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="HwdaGxprAbr-SZYryuUC" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T14:57:53.564Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="saA2zzqfF3WJwAd5MoOO" version="24.0.1" type="github">
   <diagram name="페이지-1" id="ekymxuNGtFeP-5mvZlKB">
     <mxGraphModel dx="1674" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -333,7 +333,7 @@
         <mxCell id="KZmtE2VKRh2bcaCoAzkj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KZmtE2VKRh2bcaCoAzkj-9" target="KZmtE2VKRh2bcaCoAzkj-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KZmtE2VKRh2bcaCoAzkj-9" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_oracle_instance_alt;" vertex="1" parent="1">
+        <mxCell id="KZmtE2VKRh2bcaCoAzkj-9" value="OnPremise DB" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_oracle_instance_alt;" vertex="1" parent="1">
           <mxGeometry x="80" y="2080" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="KZmtE2VKRh2bcaCoAzkj-10" value="RDS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_instance;" vertex="1" parent="1">
